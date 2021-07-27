@@ -261,6 +261,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="oCY-lm-kvf"/>
                                 </connections>
                             </button>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="quotE" translatesAutoresizingMaskIntoConstraints="NO" id="Yfl-DU-Mkl">
+                                <rect key="frame" x="0.0" y="110" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Yfl-DU-Mkl" id="wPI-1z-OJx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gpn-F5-8DS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -274,7 +282,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="YEf-ZW-Ap2"/>
-        <segue reference="r7A-GG-DtH"/>
+        <segue reference="oCY-lm-kvf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BoxB" width="225" height="225"/>
