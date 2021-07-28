@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="2Iw-bK-rOI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZE0-4i-yGy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aesthetic" translatesAutoresizingMaskIntoConstraints="NO" id="3Gx-jR-Rcd">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to MoodLight! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dA-eV-Aa0">
                                 <rect key="frame" x="27" y="77" width="360" height="54"/>
@@ -56,7 +56,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="r7A-GG-DtH"/>
+                                    <segue destination="t9m-50-ATQ" kind="show" id="r7A-GG-DtH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -110,7 +110,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Thrilled"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="Umd-KN-iRg"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i4U-sk-317"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmR-S4-7qK">
@@ -118,7 +118,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Proud"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="gEk-ef-Zyw"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vrf-H9-fgL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HV3-7v-zyE">
@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Uneasy"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="EKY-fH-F4F"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HWz-xD-ZoR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufF-ZO-8eT">
@@ -134,7 +134,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Furious"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="lJU-Uc-2X1"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k7c-mD-nzF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHb-IL-k0e">
@@ -142,7 +142,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Frustrated"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="iuh-po-Esa"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xoh-HR-Pxc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvu-Kr-rfK">
@@ -150,7 +150,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Happy"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="dl1-nV-ZID"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hyc-KX-bcj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YX-s4-sKc">
@@ -158,7 +158,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Motivated"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="jyd-1O-X82"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRL-RW-Og7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgz-Er-9GR">
@@ -166,7 +166,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Drained"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="jA9-Ik-LVX"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tng-br-v1N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEH-x6-pAZ">
@@ -174,7 +174,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Depressed"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="YEf-ZW-Ap2"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z0k-ze-Yiy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhi-xP-UI8">
@@ -182,7 +182,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Relaxed"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="IJy-7I-8Ni"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Er8-0c-HlA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6e-hf-4wE">
@@ -190,7 +190,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Embarrased"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="MKA-c1-Beh"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YWn-io-sed"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWf-sA-525">
@@ -198,7 +198,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ashamed"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="xyE-cQ-c8T"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yap-l7-3cE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fz6-pd-cZJ">
@@ -206,7 +206,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fearful"/>
                                 <connections>
-                                    <segue destination="xEV-xZ-WUO" kind="show" id="ztW-nB-xTe"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HcY-Kd-pdW"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BoxB" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-BK-Wku">
@@ -222,7 +222,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Satisfied"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="9q1-1X-wwO"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zfv-7b-vdZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tex-NL-VC5">
@@ -230,7 +230,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fulfilled"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="YC6-zA-DCx"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAy-qz-3SJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osk-YN-gqC">
@@ -238,7 +238,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Relieved"/>
                                 <connections>
-                                    <segue destination="dbb-1V-8DY" kind="show" id="Iru-tx-p4c"/>
+                                    <action selector="onButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iuW-09-PIL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOM-7E-8eY">
@@ -247,19 +247,19 @@
                                 <state key="normal" title="Back to Startup" image="arrowshape.turn.up.left" catalog="system">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
-                                <connections>
-                                    <segue destination="2Iw-bK-rOI" kind="show" id="cHN-3f-M7v"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94901961089999998" green="0.98823523520000001" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="20K-3x-Ver"/>
+                    <connections>
+                        <segue destination="xEV-xZ-WUO" kind="show" identifier="detailSegue" id="slj-ZH-cel"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="418.84057971014494" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1344.9275362318842" y="65.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eIw-8X-GHM">
@@ -269,106 +269,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79n-di-Kw0">
-                                <rect key="frame" x="6" y="36" width="74" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="arrow.backward" catalog="system"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="yMN-H1-FQP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhZ-2G-RmV">
-                                <rect key="frame" x="26" y="32" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="oCY-lm-kvf"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyJ-cJ-Aaa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T8g-xx-iNT">
+                                <rect key="frame" x="0.0" y="56" width="414" height="752"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyJ-cJ-Aaa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="376"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79u-eu-h0l">
+                                        <rect key="frame" x="0.0" y="376" width="414" height="376"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gpn-F5-8DS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="gpn-F5-8DS" firstAttribute="trailing" secondItem="yyJ-cJ-Aaa" secondAttribute="trailing" id="B5U-RS-G1I"/>
-                            <constraint firstItem="yyJ-cJ-Aaa" firstAttribute="top" secondItem="gpn-F5-8DS" secondAttribute="top" id="Fzn-OF-xHJ"/>
-                            <constraint firstItem="yyJ-cJ-Aaa" firstAttribute="leading" secondItem="gpn-F5-8DS" secondAttribute="leading" id="ary-Zd-SIn"/>
-                            <constraint firstItem="gpn-F5-8DS" firstAttribute="bottom" secondItem="yyJ-cJ-Aaa" secondAttribute="bottom" id="tNg-Du-6Su"/>
+                            <constraint firstItem="T8g-xx-iNT" firstAttribute="leading" secondItem="byA-3a-mvL" secondAttribute="leading" id="PR7-ln-bGn"/>
+                            <constraint firstItem="T8g-xx-iNT" firstAttribute="top" secondItem="gpn-F5-8DS" secondAttribute="top" id="cRm-Ay-oB1"/>
+                            <constraint firstItem="gpn-F5-8DS" firstAttribute="trailing" secondItem="T8g-xx-iNT" secondAttribute="trailing" id="gIh-ha-31J"/>
+                            <constraint firstItem="gpn-F5-8DS" firstAttribute="bottom" secondItem="T8g-xx-iNT" secondAttribute="bottom" id="hsm-MA-pxz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wEH-t1-GP3"/>
                     <connections>
+                        <outlet property="authorLabel" destination="79u-eu-h0l" id="8yW-Ud-X3H"/>
                         <outlet property="quoteLabel" destination="yyJ-cJ-Aaa" id="EWb-M0-nHy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rb2-fl-MFT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1138" y="78"/>
+            <point key="canvasLocation" x="2047.826086956522" y="77.678571428571431"/>
         </scene>
-        <!--View ControllerSECOND-->
-        <scene sceneID="qcs-xC-R4J">
+        <!--Navigation Controller-->
+        <scene sceneID="GNN-Dk-xNE">
             <objects>
-                <viewController id="dbb-1V-8DY" customClass="ViewControllerSECOND" customModule="MoodletGitREPO2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VRN-qj-Aa5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnE-8m-uU1">
-                                <rect key="frame" x="13" y="48" width="60" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back" image="arrow.backward" catalog="system"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="i8I-3Y-qGs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izi-mR-mbs">
-                                <rect key="frame" x="32" y="44" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="gJv-Mf-dPh"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9T-xl-Van" userLabel="Quote Label2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="rkD-3C-RYp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Q9T-xl-Van" secondAttribute="trailing" id="0GY-mo-ZzS"/>
-                            <constraint firstItem="Q9T-xl-Van" firstAttribute="leading" secondItem="VRN-qj-Aa5" secondAttribute="leading" id="GEC-Qd-YrI"/>
-                            <constraint firstItem="Q9T-xl-Van" firstAttribute="top" secondItem="VRN-qj-Aa5" secondAttribute="top" id="r1G-IN-M7H"/>
-                            <constraint firstAttribute="bottom" secondItem="Q9T-xl-Van" secondAttribute="bottom" id="t6r-Vs-T1j"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="YKh-7m-gvh"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="t9m-50-ATQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="sCs-ZF-kGZ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C6u-1j-54A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <outlet property="quoteLabel2" destination="Q9T-xl-Van" id="RW6-SG-x4G"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="z2P-NI-hdh"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="arK-Xw-FAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Haa-kT-yKX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798.5507246376812" y="77.678571428571431"/>
+            <point key="canvasLocation" x="434.78260869565219" y="65.625"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="dl1-nV-ZID"/>
-        <segue reference="lJU-Uc-2X1"/>
-        <segue reference="i8I-3Y-qGs"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="BoxB" width="225" height="225"/>
         <image name="aesthetic" width="1000" height="1778"/>
-        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="arrowshape.turn.up.left" catalog="system" width="128" height="106"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
